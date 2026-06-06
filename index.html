@@ -6,11 +6,15 @@
   <title>Golden Spin</title>
 
   <style>
-    * {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-    }
+  body {
+font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+background:
+radial-gradient(circle at top, rgba(255,215,0,0.15), transparent 40%),
+linear-gradient(180deg,#050505,#0b0b0b,#000);
+color:#fff;
+overflow-x:hidden;
+min-height:100vh;
+}
 
     :root {
       --primary-gold: #FFD700;
@@ -55,12 +59,16 @@
     }
 
     .logo {
-      font-size: 28px;
-      font-weight: bold;
-      color: var(--primary-gold);
-      text-shadow: 0 0 10px var(--primary-gold);
-      letter-spacing: 2px;
-    }
+    .logo{
+font-size:34px;
+font-weight:900;
+letter-spacing:3px;
+color:#FFD700;
+text-shadow:
+0 0 10px rgba(255,215,0,.8),
+0 0 25px rgba(255,215,0,.6),
+0 0 50px rgba(255,215,0,.4);
+}
 
     .balance-box {
       font-size: 20px;
